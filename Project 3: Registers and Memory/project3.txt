@@ -1,0 +1,18 @@
+In this project you are to implement the following chips
+
+Bit - One Bit Register
+
+Register - 16 Bit Register
+
+PC - Program Counter Register
+
+RAM8 - 8 word Random Access Memory
+
+RAM64 - 64 word Random Access Memory (hint, multiplex 8 word memory)
+
+RAM512 - 512 word Random Access Memory
+
+RAM4K - 4096 word Random Access Memory
+
+RAM16K - 16384 word Random Access Memory
+
