@@ -1,0 +1,9 @@
+In this project you are to implement the following chips
+
+15 point chips
+
+HalfAdder FullAdder Inc16 Add16
+
+40 point chip
+
+ALU
