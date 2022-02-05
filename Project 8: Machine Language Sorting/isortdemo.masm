@@ -1,0 +1,25 @@
+$include Procedure.h
+@SCREEN // setup stack to top of memory
+D=A-1
+D=A-1
+@SP
+M=D
+// fill screen with interesting pattern to observe sorting
+$procedureCall 1 DRAWSCREEN
+
+// Call ISORT(SCREEN,SCREEN+8192)
+@SCREEN
+D=A
+$pushD
+@8192
+D=D+A
+$pushD
+$procedureCall 2 ISORT
+$popAD
+$halt
+
+// include insertion sort code
+$include isort.h
+
+// include screen filling code
+$include circfill.h

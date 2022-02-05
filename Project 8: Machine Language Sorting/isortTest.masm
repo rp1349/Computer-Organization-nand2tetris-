@@ -1,0 +1,20 @@
+$include Procedure.h
+
+
+// Assume SP set at start
+(START)
+@R6
+D=M
+$pushD
+@R7
+D=M
+$pushD
+$procedureCall 2 ISORT
+$popAD
+@R8
+M=D
+$halt
+
+
+
+$include isort.h

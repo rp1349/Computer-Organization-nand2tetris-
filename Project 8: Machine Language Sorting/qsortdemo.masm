@@ -1,0 +1,28 @@
+$include Procedure.h
+
+@SCREEN  // Setup stack pointer to top of memory
+D=A-1
+@SP
+M=D
+// draw something interesting on the screen
+D=0
+$pushD
+$procedureCall 1 DRAWSCREEN
+$popD
+
+// call QSORT(SCREEN,SCREEN+8192)
+@SCREEN
+D=A
+$pushD
+@8192
+D=D+A
+$pushD
+$procedureCall 2 QSORT
+$popAD
+$halt
+
+// include code for quick sort
+$include qsort.h
+
+// include screen drawing code
+$include circfill.h
