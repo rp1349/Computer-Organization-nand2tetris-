@@ -1,5 +1,5 @@
 
-# nand2tetris
+## nand2tetris
 Based on the book “The Elements of Computing Systems: second edition” by Noam Nisan and Shimon Schocken.
 
 Project 0 is just some solutions to the Boolean Simplification problems for familiarity with the concepts of the course and helps understand the projects better. 
@@ -10,21 +10,21 @@ Project 7-8 is a part of Computer Organization class at Mississippi State Univer
 
 Software and other resources at https://www.nand2tetris.org
 
-  Project 0: Boolean Simplification
+  * Project 0: Boolean Simplification
   
-  Project 1: Basic Boolean Logic Blocks
+  * Project 1: Basic Boolean Logic Blocks
   
-  Project 2: Boolean Arithmetic (Arithmetic Logic Unit)
+  * Project 2: Boolean Arithmetic (Arithmetic Logic Unit)
   
-  Project 3: Registers and Memory
+  * Project 3: Registers and Memory
   
-  Project 4: Machine Language Programming
+  * Project 4: Machine Language Programming
   
-  Project 5: Computer(CPU) Architecture
+  * Project 5: Computer(CPU) Architecture
   
-  Project 6: Assembler
+  * Project 6: Assembler
   
-  Project 7: Stacks and Re-entrant Procedures
+  * Project 7: Stacks and Re-entrant Procedures
   
-  Project 8: Machine Language Sorting
+  * Project 8: Machine Language Sorting
   
