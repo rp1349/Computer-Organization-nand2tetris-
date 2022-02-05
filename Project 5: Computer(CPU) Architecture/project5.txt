@@ -1,0 +1,41 @@
+ackground
+In previous projects we've built the computer's basic processing and storage devices (ALU and RAM, respectively). In this project we will put everything together, yielding the complete Hack Hardware Platform. The result will be a general-purpose computer that can run programs written in the Hack machine language.
+
+Objective
+Complete the construction of the Hack CPU and the Hack hardware platform, leading up to the top-most Computer chip.
+
+Chips
+Chip Name
+
+Memory.hdl  -  This implements the entire RAM address space
+
+CPU.hdl        -  This implements the Hack CPU
+
+Computer.hdl - This integrates the Memory and CPU chips into a working computer that can run programs
+
+The computer platform that you build should be capable of executing programs written in the Hack machine language, specified in Chapter 4. Demonstrate this capability by having your Computer chip run the three test programs given below.
+
+Testing (Links to an external site.)
+Testing the Memory and CPU chips: It's important to unit-test these chips before proceeding to build the overall Computer chip. Use the the test scripts and compare files listed above.
+
+Testing the Computer chip: A natural way to test the overall Computer chip implementation is to have it execute some sample programs written in the Hack machine language. In order to perform such a test, one can write a test script that (i) loads the Computer.hdl chip description into the supplied Hardware Simulator, (ii) loads a machine-level program from an external .hack file into the ROM chip-part of the loaded Computer.hdl chip, and then (iii) runs the clock enough cycles to execute the loaded instructions. We supply all the files necessary to run three such tests, as follows:
+
+Add.hack
+
+Adds up the two constants 2 and 3 and writes the result in RAM[0]. 
+
+Max.hack
+
+Computes the maximum of RAM[0] and RAM[1] and writes the result in RAM[2].
+
+Rect.hack
+
+Draws a rectangle of width 16 pixels and length RAM[0] at the top left of the screen.
+
+ 
+
+Other Resources:
+
+nand2tetris website tips for this project (Links to an external site.)
+
+ 
